@@ -1,0 +1,7 @@
+﻿Component,ESP32 Pin,Connection Details
+DHT22 Sensor,GPIO 4,"DATA → GPIO 4, VCC → 3.3 V, GND → GND, NC → leave unconnected"
+Flame Sensor,GPIO 27 (DO),"DO → GPIO 27, VCC → 3.3 V, GND → GND"
+,GPIO 34 (AO),"AO → GPIO 34 (optional, for analog flame intensity)"
+Buzzer,GPIO 26,"Positive (+) → GPIO 26, Negative (–) → GND"
+LED,GPIO 25,"Anode (+) → GPIO 25 through 220 Ω resistor, Cathode (–) → GND"
+ESP32 Power,—,USB → PC for power and Serial Monitor
